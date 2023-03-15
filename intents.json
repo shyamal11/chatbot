@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "How are you"
+      ],
+      "responses": [
+        "Hello! Welcome to our travel website. How can I assist you today?",
+        "Hi there! How may I assist you with your travel plans today?",
+        "Hi! What can I help you with today?",
+        "Greetings! How can I help you with your trip planning today?",
+        "Hello there! How may I assist you with your travel needs?",
+        "Hi! How are you today? How can I assist you with your travel plans?",
+        "Hi there! Welcome to our travel website. What can I help you with today?"
+      ]
+    },
+    {
+      "tag": "destination",
+      "patterns": [
+        "Can you recommend a destination?",
+        "Where should I go?",
+        "What are some popular destinations?",
+        "I'm looking for a place to go"
+      ],
+      "responses": [
+        "Sure, we have a wide range of destinations to choose from. Where are you interested in going?",
+        "Certainly! What type of trip are you interested in? We have a variety of destinations to recommend based on your preferences.",
+        "Absolutely! Some of our most popular destinations include [destination names]. What type of trip are you interested in?"
+      ]
+    },
+    {
+      "tag": "activities",
+      "patterns": [
+        "What activities can I do?",
+        "What are some things to do at [destination]?",
+        "What are some popular activities?"
+      ],
+      "responses": [
+        "There are many activities to do at [destination] such as [activity 1], [activity 2], and [activity 3]. What type of activities are you interested in?",
+        "Some popular activities at [destination] include [activity 1], [activity 2], and [activity 3]. What type of activities are you interested in?"
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "Can you recommend a place to stay?",
+        "Where should I stay?",
+        "What are some popular accommodations?",
+        "I need a place to stay"
+      ],
+      "responses": [
+        "Certainly! We have a variety of accommodations to choose from such as hotels, resorts, and villas. What type of accommodation are you interested in?",
+        "Absolutely! Some popular accommodations include [accommodation names]. What type of accommodation are you looking for?"
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "How can I book a trip?",
+        "Can I book a trip through the chatbot?",
+        "What is the booking process?",
+        "How do I make a reservation?"
+      ],
+      "responses": [
+        "You can easily book a trip by selecting your preferred destination, dates, and accommodations. Our chatbot can help you through the booking process or you can book directly on our website. Let me know if you need any assistance!",
+        "Yes, you can book a trip through our chatbot by providing your travel preferences and payment information. Alternatively, you can book directly on our website. Let me know if you need any help with the booking process.",
+        "The booking process is simple! You just need to select your preferred destination, dates, and accommodations, and then provide your payment information. Our chatbot can guide you through the process or you can book directly on our website."
+      ]
+    }
+  ]
+}
