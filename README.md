@@ -13,16 +13,16 @@ This project showcases a conversational AI bot built using Rasa, an open-source 
 
 1. **Update config.yml:** Customize the Rasa configuration file as needed for your project. This file contains settings for NLU and dialogue management.
 2. **Train the Model**
-   ``bash
+   ```bash
    rasa train
 3. **Start the Rasa Server**
-   ``bash
+   ```bash
    rasa run
 4. **Start the Action Server (if applicable)**
-   ``bash
+   ```bash
    rasa run actions
 5. **Test the Chatbot**
-   ``bash
+   ```bash
    rasa shell
 
 
